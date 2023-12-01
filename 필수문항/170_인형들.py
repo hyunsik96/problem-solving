@@ -9,8 +9,6 @@ def get_b(i, k, m):
     s = 0
     for idx in range(i, i + k):
         s += (dolls[idx] - m) ** 2
-    if s / k == 0.888888888888889:
-        print("!!!")
     return s / k
 
 
