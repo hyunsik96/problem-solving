@@ -1,8 +1,8 @@
-print('ㅎㅇ', end='')
+print("ㅎㅇ", end="")
 
 a = 3
 b = 4
-print(f'안녕 {a}는 {b}이냐?')
+print(f"안녕 {a}는 {b}이냐?")
 
 import sys
 
@@ -10,5 +10,8 @@ import sys
 
 input = sys.stdin.readline
 
-a = input().rstrip()    #오른쪽 공백 싹 날림 (\n 도 날려줌)
+a = input().rstrip()  # 오른쪽 공백 싹 날림 (\n 도 날려줌)
 # lstrip, strip 각각 왼쪽 공백, 양쪽 공백 싹 날린다.
+
+for i in range(-1, 5, 2):
+    print(i, end=", ")  # 출력: -1, 1, 3,
